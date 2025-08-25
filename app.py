@@ -21,5 +21,5 @@ def predict():
     result=result[0]
     return (result)
 
-if(_name=="main_"):
+if(__name__=="__main_"):
     app.run(host='0.0.0.0',port=5000,debug=True)
